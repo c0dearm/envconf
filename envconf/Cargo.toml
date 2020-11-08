@@ -6,6 +6,7 @@ edition = "2018"
 license = "MIT/Apache-2.0"
 description = "Boilerplate free initialization of structs from environment variables"
 repository = "https://github.com/c0dearm/envconf"
+readme = "README.md"
 keywords = ["env", "configuration", "settings", "environment", "variables"]
 categories = ["config"]
 
