@@ -1,0 +1,17 @@
+[package]
+name = "envconf"
+version = "0.1.0"
+authors = ["Aitor Ruano <codearm@pm.me>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+description = "Boilerplate free initialization of structs from environment variables"
+repository = "https://github.com/c0dearm/envconf"
+keywords = ["env", "configuration", "settings", "environment", "variables"]
+categories = ["config"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+envconf_derive = { path = "./derive" }
